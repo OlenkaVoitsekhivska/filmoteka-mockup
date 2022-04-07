@@ -1,0 +1,45 @@
+*,html{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+body{
+    margin:auto;
+}
+
+@media screen and (min-width: 320px){
+/* .container {
+margin:auto;
+    width: 320px;
+    padding: 20px;
+} */
+
+ul{
+    display: flex;
+flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin:10px;
+}
+img {
+    display: block;
+  
+    width: 280px;
+    height: 398px;
+}
+}
+
+#movie_id{
+    display: none;
+}
+
+.invisible{
+    display: none;
+}
+
+
